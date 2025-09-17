@@ -10,16 +10,6 @@ public class WidgetsContext : DbContext
     {
     }
 
-    public WidgetsContext()
-    {
-        
-    }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=TodoLisDB;Integrated Security=True");
-    }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // Fluent API

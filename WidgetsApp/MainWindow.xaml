@@ -30,10 +30,12 @@
             <TextBlock Name="tempTb"></TextBlock>
         </StackPanel>
         
-        <StackPanel Grid.Column="1">
-            <ListBoxItem>
+        <StackPanel Grid.Column="1"
+                    Background="Coral">
+            <ListBox x:Name="todosLB"
+                         Loaded="TodosLB_OnLoaded">
                 
-            </ListBoxItem>
+            </ListBox>
         </StackPanel>
     </Grid>
 </Window>

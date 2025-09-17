@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\WidgetsApp.Storage\WidgetsApp.Storage.csproj" />
       <ProjectReference Include="..\WidgetsApp.WeatherAPI\WidgetsApp.WeatherAPI.csproj" />
     </ItemGroup>
 
