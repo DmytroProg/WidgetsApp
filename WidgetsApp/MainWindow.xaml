@@ -29,5 +29,11 @@
             <TextBlock Name="weatherNameTb"></TextBlock>
             <TextBlock Name="tempTb"></TextBlock>
         </StackPanel>
+        
+        <StackPanel Grid.Column="1">
+            <ListBoxItem>
+                
+            </ListBoxItem>
+        </StackPanel>
     </Grid>
 </Window>
